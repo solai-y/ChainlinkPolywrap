@@ -1,0 +1,15 @@
+{
+  "name": "oracle-interface",
+  "description": "Chainlink oracle polywrap plugin interface",
+  "version": "0.0.1-prealpha.65",
+  "scripts": {
+    "build": "npx w3 build",
+    "lint": "eslint --color -c ../../../.eslintrc.js .",
+    "test:env:up": "npx w3 test-env up",
+    "test:env:down": "npx w3 test-env down",
+    "deploy": "npx w3 build --ipfs http://localhost:5001"
+  },
+  "devDependencies": {
+    "@web3api/cli": "0.0.1-prealpha.65"
+  }
+}

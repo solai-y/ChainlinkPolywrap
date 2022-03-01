@@ -1,0 +1,8 @@
+type Query {
+  getPrice(alchemyKey: String!, tokenA: String!, tokenB: String!): PriceData!
+}
+
+type PriceData {
+  price: BigInt!
+  decimals: BigInt!
+}

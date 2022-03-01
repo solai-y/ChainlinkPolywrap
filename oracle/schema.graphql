@@ -1,0 +1,4 @@
+#import { Connection } into Ethereum from "ens/ethereum.web3api.eth"
+#import { Query, PriceData } into Oracle from "ens/oracle.eth"
+
+type Query implements Oracle_Query {}
